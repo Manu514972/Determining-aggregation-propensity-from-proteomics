@@ -1,1 +1,1 @@
-# Final-project
+# Determining aggregation propensity from proteomics data
