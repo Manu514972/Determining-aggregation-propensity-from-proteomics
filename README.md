@@ -1,2 +1,4 @@
 # Determining aggregation propensity from proteomics data
 ## What does this project do?
+This program will take in a list of proteins and will compute the aggregation propensity of the proteins in that list. It will do this by comparing the input list of protein to two published datasets which measured protein aggregation propensity in two different ways: 
+1. Ciryam et al. 2013 (Ciryam, Prajwal, et al. "Widespread aggregation and neurodegenerative diseases are associated with supersaturated proteins." Cell reports 5.3 (2013): 781-790.) computed the supersaturation score (SS) of all proteins in the human proteome. The program will compare the input list of proteins to the SS list published by Ciryam et al. and will output two results: (1) the average SS for the entire list and (2) all the proteins in the input list which have an SS higher than a user-specified value.  
