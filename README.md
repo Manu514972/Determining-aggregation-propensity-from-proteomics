@@ -23,6 +23,7 @@ Output:
 ## How to run
 - Make sure pandas and numpy are installed.
 - Run the script from the terminal providing (1) the list of proteins to be checked, (2) the supersaturation list, (3) the Tm list as arguments.
+- In the terminal run the script using the following line: python Protein_aggregation.py Proteins.csv SS.xlsx Tm.xlsx. Make sure all four files are in the working directory. 
 - The output excel file named "matched_proteins_output" will be added to the working directory.
 
 This project was developed as part of the Python programming course at the Weizmann Institute of Science.
